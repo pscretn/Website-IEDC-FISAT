@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #t1{
 
-  text-align: center;
+  text-align: left;
   font-size: 40px;
   border: 0;
   margin:0;
@@ -76,6 +76,72 @@ h1, h2, h3, h4, h5, h6 {
 }
 #img1{
   height: 80px;
+  text-align: left;
+}
+#img2{
+  width:100%
+}
+#t2{
+  background-image: url(https://raw.githubusercontent.com/pscretn/Website-IEDC-FISAT/master/images/bg-3.jpg);
+  height: 720px;
+}
+#t3{
+
+  border: 0;
+  margin:0;
+  padding-top: 12%;
+
+ 
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+svg {
+    display: block;
+    font: 10.5em 'Dosis';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 7px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: red;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: blue;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke:green;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+#t4{
+  height: 50%;
 }
 
 /*--------------------------------------------------------------
@@ -103,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Dosis", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   color: #0f394c;
   white-space: nowrap;
