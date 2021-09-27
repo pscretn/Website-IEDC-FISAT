@@ -488,6 +488,29 @@ a:hover {
   margin-right: auto;
   width: 100%;
 }
+.img4{
+  width: 70%; 
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#blackbg{
+  background-color: #1b1a1a;
+}
+#t6{
+  padding-top: 3%;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  letter-spacing: 1%;
+  color: aliceblue;
+}
+@media (max-width: 800px) {
+  .img4{
+    width: 95%; 
+  }
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -672,10 +695,7 @@ a:hover {
   opacity: 1;
   bottom: 15px;
 }
-.img3{
-  height: 300px;
-  width: 300px;
-}
+
 
 /**
 * Mobile Navigation 
