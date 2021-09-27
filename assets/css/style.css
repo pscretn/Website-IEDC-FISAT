@@ -495,7 +495,7 @@ a:hover {
   margin-right: auto;
 }
 #blackbg{
-  background-color: #1b1a1a;
+  background: -webkit-linear-gradient( 45deg,black 50%, blue);
 }
 #t6{
   padding-top: 3%;
@@ -520,6 +520,13 @@ a:hover {
   text-align: center;
   font-size: 35px;
   color:greenyellow;
+}
+#t9{
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color:#3d4f5a;
 }
 #ic{
   color: white;
