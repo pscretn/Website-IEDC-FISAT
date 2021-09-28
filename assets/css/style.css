@@ -584,10 +584,7 @@ a:hover {
   justify-content: space-between;
   font-family: "Dosis", sans-serif;
   letter-spacing: 1%;
-  background: -webkit-linear-gradient( 45deg,red, white 50%,blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 16px;
+ color: aliceblue;
   font-weight: 600;
   padding: 0;
   white-space: nowrap;
