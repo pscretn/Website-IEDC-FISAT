@@ -837,7 +837,9 @@ a:hover {
 .hero {
   height: 100vh;
   position: relative;
-  color: #fff;
+  color: aliceblue;
+  font-family: "Dosis", sans-serif;
+
 }
 .hero .hero-content {
   text-align: center;
